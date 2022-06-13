@@ -1,0 +1,22 @@
+<%- include("header.ejs") -%>
+  <body>
+    <% //to run js code %>
+
+    <h1 class="box" id="heading"><%= listTitle %></h1>
+    <div class="box">
+      <form>
+
+        <% for(let i=0;i<items.length;i++){ %>
+          <div class="item">
+            <input type="checkbox" name="" value="">
+            <p><%= items[i] %></p>
+          </div>
+        <% } %>
+      </form>
+    </div>
+    <form class="" action="/" method="post">
+      <input class="box" type="text" name="newItem" placeholder="New item">
+      <button type="submit" name="list" value=<%= listTitle %>>+</button>
+    </form>
+  </body>
+</html>

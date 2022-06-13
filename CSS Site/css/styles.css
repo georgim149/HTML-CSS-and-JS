@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: #FABB51;
+}
+
+
+/*centering*/
+h1 {
+  background-color: #66BFBF;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 562.5%;
+  line-height: 4;
+
+}
+
+h2 {
+  background-color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+p {
+
+  line-height: 2;
+
+}
+
+.top_container {
+  background-color: #7CD1B8;
+  position: relative;
+  margin:0;
+}
+.middle_container {
+  margin: 0;
+  background-color: #3E8E7E;
+}
+.bottom_container {
+  background-color: #FABB51;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+}
+
+.skill-text {
+  text-align: left;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+
+  position: relative;
+}
+
+.pic2 {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pic3 {
+  width: 10%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer {
+  margin: 0 auto;
+}
